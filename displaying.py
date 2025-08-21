@@ -3,6 +3,8 @@ import altair as alt
 import pandas as pd
 import streamlit as st
 
+st.markdown("# *Streamlit* Is Awesome! :sunglasses: ")
+
 st.subheader('st.write')
 st.write("Hello World, I am *Tadie!* :sunglasses:")
 
@@ -28,7 +30,7 @@ st.write(c)
 
 st.caption("Amazing Chart Illustrations!")
 
-st.markdown("# Tadie is coming")
+
 st.latex(r'''
     a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} =
     \sum_{k=0}^{n-1} ar^k =
